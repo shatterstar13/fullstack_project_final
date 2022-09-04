@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+footer{
+  color:#caced1 !important;
+}
+footer li{
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+#footerlogo{
+  letter-spacing: 0.2em;
+  font-size: x-large;
+}
+footer ul li a{
+  text-decoration: none;
+  color:#caced1 !important;
+}
+footer li:hover{
+  padding-left: 8px;
+  transition: all 0.5s ease;
+  color: white;
+  cursor: pointer;
+}
+.row-1{
+  background-color: #28323C !important;
+}
+.row-2{
+  background-color:#1E242A !important;
+}
+#carousel-img{
+  height: 160px !important;
+  object-fit: cover;
+}
+#headings{
+  font-size: 30pt;
+  font-weight: 400;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pseudo::after {
+  border-bottom: thin solid #000;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.react-multi-carousel-list{
+  position: unset !important;
+}
+.react-multiple-carousel__arrow{
+  background: transparent !important;
+}
+.react-multiple-carousel__arrow:hover{
+  background:lightgray !important;
+}
+.react-multiple-carousel__arrow::before{
+  color: #000 !important;
+}
+.btn-outline-primary:hover{
+  background: none;
+  color: #0d6efd;
+}
