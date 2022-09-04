@@ -1,13 +1,11 @@
 const user = require("../modals/user");
 
 const create = (req, res) => {
-  const { fname, lname, uname, dob, mail, contact, role, password, confirm } =
-    req.body;
+  const { name, uname, dob, mail, contact, role, password, confirm } = req.body;
   let data;
   try {
     data = new user({
-      fname,
-      lname,
+      name,
       uname,
       dob,
       mail,
